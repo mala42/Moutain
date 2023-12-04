@@ -1,0 +1,51 @@
+.toto {
+
+    font-size: 400px;
+    font-family: arvo; 
+   
+}
+
+
+.tata{
+    background-image: url(../images/bg_header.jpg);
+    height:100vh;
+    background-position: center;
+    background-size: cover;
+    flex-direction:  ;
+    display: flex;
+    flex-direction: column; /* Ajoutez la valeur appropriée selon vos besoins */
+    justify-content: center; /* Ajustez selon vos besoins */
+    align-items: center;
+    color: rgb(245, 245, 245);
+    font-family: 'Rokkitt', serif;
+    
+    
+}
+
+.baw {
+      /* Couleur de fond de la jumbotron */
+    padding: 40px; /* Espacement interne de la jumbotron */
+    margin: 20px; /* Marge extérieure de la jumbotron */
+    border-radius: 10px; /* Coins arrondis de la jumbotron */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    font-family: 'Roboto', sans-serif; 
+}
+
+.baw p {
+    font-size: 18px; /*
+    color: #333; /* Couleur du texte */
+
+
+}
+
+#about {
+    background-image: url(../images/bg_nuage.jpg) ;
+    height: 40vh;
+    backgrou
+
+}
+
+
+
+/* bouton random /* 
+esmnfesmofez

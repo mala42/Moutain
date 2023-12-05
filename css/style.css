@@ -1,44 +1,79 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
 
-
-.tata{
-    background-image: url(../images/bg_header.jpg);
-    height:100vh;
-    background-position: center;
-    background-size: cover;
-    /* flex-direction:  ; */
-    display: flex;
-    flex-direction: column; /* Ajoutez la valeur appropriée selon vos besoins */
-    justify-content: center; /* Ajustez selon vos besoins */
-    align-items: center;
-    color: rgb(245, 245, 245);
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Rokkitt', serif;
-    
-    
 }
 
-.baw {
-      /* Couleur de fond de la jumbotron */
-    padding: 40px; /* Espacement interne de la jumbotron */
-    margin: 20px; /* Marge extérieure de la jumbotron */
-    border-radius: 10px; /* Coins arrondis de la jumbotron */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
-    font-family: 'Roboto', sans-serif; 
+h1 {
+    font-size: 3rem;
+}
+h1 span {
+    font-size: 4rem;
 }
 
-.baw p {
-    font-size: 18px; /*
-    color: #333; /* Couleur du texte */
-
-
+h2 {
+    font-size: 2.5rem;
 }
 
-#about {
-    background-image: url(../images/bg_nuage.jpg) ;
-    height:600px ;
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1.3rem;
+}
+
+
+#home{
+    background-image: url(../images/bg_header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
-
-
-
 }
 
-/* bouton random /* 
+
+
+#about{
+
+    background-image: url(../images/bg_nuage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-cyan{
+    background-color: #00dffc88;
+}
+
+.photodublog{   
+    height:75vh;
+    background-size:contain ;
+    background-repeat: no-repeat;  
+    background-position: center;
+}
+
+.textemodifie{
+    height:  500px;
+    width: 400p;
+    
+}
+
+#history{
+
+    background-image: url(../images/bg_appareil_photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.imageapphoto{
+
+    padding-top: 345px;
+    padding-bottom: 140px;
+}

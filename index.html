@@ -1,168 +1,255 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2? family=Roboto:wght@300;400&family=Rokkitt&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="./css/style.css">
-</head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>The Mountain</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+		integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Rokkitt:wght@300;400;700&display=swap"
+		rel="stylesheet">
 
+	<link rel="stylesheet" href="./css/style.css">
+</head>
 
 <body>
 
-    <!-- id ‘home’-->
-    <header id="home">
+	<header id="home" class="pb-5">
+		<nav class="navbar bg-transparent pb-5">
+			<div class="container p-5">
+				<a class="navbar-brand d-flex align-items-center" href="#">
+					<img src="./images/your_logo.png" width="200px" alt="" srcset="">
+					<span class="h1 mt-3 text-uppercase fw-light">Logo</span>
+				</a>
+				<button class="navbar-toggler border border-0" type="button" data-bs-toggle="offcanvas"
+					data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+					<i class="fa-solid fa-bars fa-2x text-dark"></i>
+				</button>
+				<div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasNavbar"
+					aria-labelledby="offcanvasNavbarLabel">
+					<div class="offcanvas-header">
+						<h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+					</div>
+					<div class="offcanvas-body">
+						<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+							<li class="nav-item">
+								<a class="nav-link text-white active" aria-current="page" href="#">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-white" href="#features">feacture</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-white" href="#about">About me</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-white" href="#blog">Blog</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-white" href="#history">history</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-white" href="#photo">Look my Photos</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-white" href="#touch">Get in touch</a>
+
+							<li class="nav-item">
+								<a class="nav-link text-white" href="#download">Download</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<div class="d-flex flex-column justify-content-center align-items-center">
+			<h1 class="d-flex flex-column text-center text-white my-4">
+				In the Hall of the
+				<span class="fw-bold">Mountain King</span>
+			</h1>
+			<p class="text-white w-50 my-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint harum, fugit
+				consequuntur temporibus culpa sit? Voluptatem corporis quia, optio culpa eum expedita, dolores, sit ipsa
+				numquam ipsum doloribus quaerat! Corporis.</p>
+			<div class="d-flex my-5">
+				<button class="btn btn-lg btn-info text-white rounded-0 mx-2">Learn More</button>
+				<button class="btn btn-lg btn-danger text-white rounded-0 mx-2">Download</button>
+			</div>
+		</div>
+	</header>
+	<section id="features">
+		<div class="container text-center py-4">
+			<div class="row">
+				<div class="col-12 col-md-12 col-xl-4">
+					<i class="fa-solid fa-pencil fa-4x p-3"></i>
+					<h2 class="p-3">Consectetur Risus</h2>
+					<p>
+						Cras justo odio, dapibus ac facilisis in,
+						egestas eget quam. Donec id elit non mi porta gravida
+						at eget metus. Nullam id dolor id nibh ultricies
+						vehicula ut id elit.
+					</p>
+				</div>
+				<div class="col-12 col-md-12 col-xl-4">
+					<i class="fa-solid fa-pencil fa-4x p-3"></i>
+					<h2 class="p-3">Consectetur Risus</h2>
+					<p>
+						Cras justo odio,dapidus ac facilisis in,egestas eget quam
+						integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+						donec ullamcorper nulla non metus auctor fringilla
+					</p>
+				</div>
+				<div class="col-12 col-md-12 col-xl-4">
+					<i class="fa-solid fa-pencil fa-4x p-3"></i>
+					<h2 class="p-3">Consectetur Risus</h2>
+					<p>
+						etiam porta sem malesuada magna mollis euismod Aenean eu leo quam.
+						Pellentesque ornare sem lacinia quam venenatis vestibulum maecenas
+						faucibus mollis interdum
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<section id="about"> <!-- about -->
+
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-lg-6"></div>
+				<div class="col-12 col-lg-6 p-5 bg-cyan">
+					<h2 class="text-white">Lugula Mattis Ornare Ultricies</h2>
+					<h3 class="text-white py-3">Lorem, ipsum dolor sit amet consectetur adipisicing.</h3>
+					<p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores inventore
+						fugiat, eligendi molestiae facere fugit natus tempora exercitationem necessitatibus voluptates
+						ipsa, quidem laudantium incidunt ab. Nemo, eos. Nostrum, odit dolorem.</p>
+					<div class="d-flex justify-content-around py-4">
+						<div class="border border-1 border-white p-5">
+							<h5 class="text-white fs-2">TOTO</h5>
+							<p class="text-white fs-3">42530</p>
+						</div>
+						<div class="border border-1 border-white p-5">
+							<h5 class="text-white fs-2">TOTO</h5>
+							<p class="text-white fs-3">42530</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</section> <!-- fin du block about-->
+
+	<section id="blog"> <!-- debut du block-->
+
+		<div class="container text-start">
+			<div class="row align-items-center">
+				<div class="col"> <!-- 1er col-->
 
 
+					<div>
+						<h2 class="text-dark ">Lorem ipsum dolor sit amet
+							<span>consectetur adipiscing elit</span>
+						</h2>
+					</div>
+					<div>
+						<p class="texte-dark">Lorem ipsum dolor sit amet. Hic nisi sint ad perspiciatis dolores est beatae quas est
+							sapiente sunt est tenetur iusto. Sed commodi doloremque est voluptatem sequi est doloribus
+							accusantium et rerum omnis et recusandae necessitatibus ab earum ratione sit autem totam.
+							Eum porro nesciunt rem laborum ullam et illum iste. In impedit architecto hic quasi error nam nihil
+							dolor et consectetur quis est sequi tempora
+							In minus corporis nam voluptatem excepturi qui voluptatem aliquid? Quo aliquam accusamus At laboriosam
+							omnis
+							sed impedit dicta. Sed voluptatem unde non nihil commodi rem illo repellat ut dignissimos rerum ut
+							voluptatem nulla eum natus iure? </p>
+					</div>
+					<button type="button" class="btn btn-danger m-1 rounded-0">Take a look</button>
+				</div>
 
-        <nav class="navbar bg-transparent fixed-top  ">
-            <div class="container">
-                <a class="navbar-brand d-flex align-items-center toto" href=#>
-                    <img src="./images/your_logo2.png" width="200px" alt="logo du header">
-                    <p class="fs-1">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-              
 
-                <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                    <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body">
-                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="#features">home</a>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="#features">Features</a>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="#features">About me</a>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="#blog">My blog</a>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="#history">My History</a>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="#photos">Look my Photos</a>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="#contact">Get in Touch!</a>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="#">Download</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </nav>
-
-
-        <div class="tata">
-            <h1 class style="text-align:center">
-                In the hall of the.
-                <div class="titreengras">
-                        <strong>Mountain King.</strong>.</p>
-                    
-                </div>
-        
+				<div class="col"> <!-- 2eme col-->
+					<img src="./images/1200.jpeg " height="500px">
+				</div>
+			</div>
+		</div>
 
-        <div class="baw">
-            <p>This is a simple hero unit, a simple jumbotron-style component for<br> calling extra attention to
-                featured content or information</p>
-        
-    </div>
-    <button class="btn btn-primary" type="submit">Learn more</button>
-    <button class="btn btn-danger" type="submit">Download</button>  <!--fin du premier element-->
 
-    
+	</section> <!-- fin du block -->
 
 
+	<section id="history" class="d-flex"> <!--look my photo-->
+		<div class="container">
+			<div class="row">
 
+				<div class="col-12 col-lg-6 bg-cyan imageapphoto">
+					<h2 class="text-white">Lugula Mattis Ornare Ultricies</h2>
+					<h3 class="text-white py-3">Lorem, ipsum dolor sit amet consectetur adipisicing.</h3>
+					<p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores inventore
+						fugiat, eligendi molestiae facere fugit natus tempora exercitationem necessitatibus voluptates
+						ipsa, quidem laudantium incidunt ab. Nemo, eos. Nostrum, odit dolorem.</p>
+					<div class="col-12 col-lg-6"></div>
+					<div class="d-flex justify-content-around py-4">
 
 
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
 
+	</section>
 
 
+	<section class="container" id="Look my Photos"> <!--début toute les images -->
+			<div class="row ">
+				<div class="col-8">
+					<img src="./images/300.jpeg" width="100%"> 
 
+				<div class="row mt-3">
+					<div class="col-6">
+						<img src="./images/800.jpeg"width="100%">
+					</div> 
+					
+				  <div class="col-6">
+						<img src="./images/400.jpeg"width="100%">
+						<img src="./images/2476.jpeg"width="100%">
+					</div>
+				</div>
+				<div class="row mt-3">
+					<div class="col-12">
+						<img src="./images/140.jpeg"width="100%">
+					</div>
+				</div>
+				</div>
 
+				<div class="col-4 ">
+					<img src="./images/776.jpeg"width="100%" class="mb-3">
+					<img src="./images/439.jpeg"width="100%" >
+				</div>
+			</div>
 
 
+				
 
 
 
+	</section>
 
-    </header>
 
 
-    <!-- Section 'features' -->
-    <section id="features">
-        <div class="container text-center p-5">
-            <div class="row">
-                <div class="col">
-                    <i class="fas fa-pencil fa-4x p-3"></i>
-                    <h2 class="p-3">Consectetur Risus</h2>
-                    <p>Cras justo odio, dapibus ac facilisis in, egestas<br> eget quam. Donec id elit non mi porta gravida
-                        <br> at eget metus. Nullam id dolor id nibh ultricies <br> vehicula ut id elit.</p>
-                </div>
-                <div class="col">
-                    <i class="fas fa-camera fa-4x p-3"></i>
-                    <h2 class="p-3">Ultricies Aenean </h2>
-                    <p>Cras justo odio, dapibus ac facilisis in, egestas<br> eget quam. Integer posuere erat a ante<br>
-                        veneanatis dapibus posuere velit aliquet. Donec <br> ullamcorper nulla non metus auctor fringilla.
-                    </p>
-                </div>
-                <div class="col">
-                    <i class="far fa-bookmark fa-4x p-3"></i>
-                    <h2 class="p-3">Cras Sollicitudin</h2>
-                    <p>Etiam porta sem malesuada magna mollis<br> euismod. Aenean eu leo quam. Pellentesque<br> ornare sem
-                        lacinia quam venenatis vestibulum<br> Maecenas faucibus mollis interdum.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--fin de section feactures-->
-        
 
 
+	
 
-    <!-- Section 'about' -->
-    <section id="about">
-            <!--- about start -->
-    <section id="about">
-        <div class="textabout d-flex text-light justify-content-center">
-            <div class="row container"> 
-                <div class="col-3"></div>
-                <div class="col-6 text bg-info bg-opacity-50 p-5">
-                   <h2 class="text-light pt-5">Ligula Mattis Ornare<br> Ultricies</h2>
-                    <h3>Pellentesque Cursus Amet Parturient Etiam</h3>
-                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam.<br> Donec id elit non mi porta gravida at eget metus. Nullam id <br> dolor id nibh ultricies vehicula ut id elit.</p>
-                        <div class="container text-center">
-                            <div class="row"> 
-                                <div class="col p-3">
-                                    <h3 class="border">Ultricies<br> 23,578 </h3>
-                                </div>
-                                <div class="col p-3">
-                                    <h3 class="border">Fermentum<br> 12,702 </h3>
 
-                                </div>
-                            </div>
-                        </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--- about end -->
-            <!-- Contenu de la troisième partie -->
-    
 
 
 
@@ -172,13 +259,7 @@
 
 
 
-    <!-- Section 'blog' -->
-    <section id="blog">
-        <div class="container"></div>
-        <div class="row">
-            <div class="col p-4"></div>
 
-        
 
 
 
@@ -187,58 +268,16 @@
 
 
 
+	<section id="photos"></section>
+	<section id="partenaires"></section>
+	<section id="contact"></section>
 
 
 
-
-
-
-        <h2>Quatrième Partie</h2>
-        <!-- Contenu de la quatrième partie -->
-    </section>
-
-    <!-- Section 'history' -->
-    <section id="history">
-        <h2>Cinquième Partie</h2>
-        <!-- Contenu de la cinquième partie -->
-    </section>
-
-    <!-- Section 'photos' -->
-    <section id="photos">
-        <h2>Sixième Partie</h2>
-        <!-- Contenu de la sixième partie -->
-    </section>
-
-    <!-- Section 'partenaires' -->
-    <section class="partenaires">
-        <h2>Septième Partie</h2>
-        <!-- Contenu de la septième partie -->
-    </section>
-
-    <!-- Section 'contact' -->
-    <section id="contact">
-        <h2>Huitième Partie</h2>
-        <!-- Contenu de la huitième partie -->
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <!-- Contenu du footer -->
-    </footer>
-
-
-
-
-
-
-
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"
-        integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81D+eO63BaqHaJ3YZX9wuqjwgfcV/MrB2PhaVX9DkYVhbFpStnqpQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
-</body>
-
-</html>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"
+		integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81D+eO63BaqHaJ3YZX9wuqjwgfcV/MrB2PhaVX9DkYVhbFpStnqpQ=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+		crossorigin="anonymous"></script>
+	<script src="./js/script.js"></script>
